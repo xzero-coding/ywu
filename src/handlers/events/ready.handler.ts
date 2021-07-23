@@ -28,6 +28,6 @@ export default class ReadyHandler implements Event {
     await this.commandService.init();
     await this.reactionRoles.init();
 
-    await this.bot.user?.setActivity('2PG.xyz');
+    await this.bot.user?.setActivity('Kop Ultra v2  Made by Pixey#2021');
   }
 }
